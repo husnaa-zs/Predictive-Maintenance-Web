@@ -1,0 +1,41 @@
+{
+  "cutoff": "2025-03-25 22:00:00",
+  "n_train": 40138,
+  "n_test": 17192,
+  "risk_model": {
+    "roc_auc": 0.9976006301751863,
+    "pr_auc": 0.9779684870366058,
+    "confusion_matrix_at_0.5": [
+      [
+        16681,
+        92
+      ],
+      [
+        13,
+        406
+      ]
+    ]
+  },
+  "isolation_forest": {
+    "roc_auc_vs_failure_label": 0.9906957809651749,
+    "threshold": 0.6058378706939442,
+    "flag_rate_test": 0.03489995346672871
+  },
+  "autoencoder": {
+    "roc_auc_vs_failure_label": 0.9916868327564174,
+    "threshold": 0.7937811017036438,
+    "flag_rate_test": 0.03321312238250349
+  },
+  "top_features": {
+    "vibration_mean_6h": 0.5577649852103895,
+    "vibration": 0.39780418168590737,
+    "vibration_std_24h": 0.006341840073575191,
+    "vibration_zscore": 0.0056350761471752305,
+    "pressure_zscore": 0.004573712828913106,
+    "vibration_std_6h": 0.0040501493813666495,
+    "current_mean_24h": 0.003982815695148834,
+    "vibration_ewm": 0.0034303131139452807,
+    "pressure_mean_24h": 0.0018162582652679483,
+    "current_ewm": 0.0017330527482298384
+  }
+}

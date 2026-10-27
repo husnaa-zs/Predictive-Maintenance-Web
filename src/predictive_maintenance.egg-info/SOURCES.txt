@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/pdm/__init__.py
+src/pdm/api.py
+src/pdm/autoencoder.py
+src/pdm/config.py
+src/pdm/db.py
+src/pdm/features.py
+src/pdm/generate_data.py
+src/pdm/train.py
+src/predictive_maintenance.egg-info/PKG-INFO
+src/predictive_maintenance.egg-info/SOURCES.txt
+src/predictive_maintenance.egg-info/dependency_links.txt
+src/predictive_maintenance.egg-info/top_level.txt
+tests/test_api.py
+tests/test_features.py
